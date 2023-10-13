@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+<<<<<<< HEAD
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/web/views/client/resetpassword.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/web/views/admin/SuaSanPham.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/src/java/api/UserApi.java</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/web/views/client/index.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/src/java/controller/ResetPasswordController.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/src/java/controller/QLDonHangController.java</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/web/views/admin/QLDonHang.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/web/views/admin/QLaccount.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/ltw/shop/src/java/util/Email.java</file>
+=======
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/ConfirmController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/LogoutController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/api/ProductApi.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/AdminController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/QLNguoiDungController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/css/admin.css</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/register.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/CartController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/api/CategoryApi.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/CategoryDAO.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/META-INF/context.xml</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/cart.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/WEB-INF/web.xml</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/model/User.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/history.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/model/Cart.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/js/script.js</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/Main.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/product.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/ProductDAO.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/search_page.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/ProductDAOImpl.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/model/DetailOrder.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/RegisterController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/login.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/index.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/OrderDAOImpl.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/UserDAO.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/model/Category.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/model/Order.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/CategoryDAOImpl.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/api/UserApi.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/UserDAOImpl.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/DBConnect.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/admin/index.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/SearchController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/css/style.css</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/admin/QLNguoiDung.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/LoginController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/util/PasswordEncoder.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/dao/OrderDAO.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/HistoryController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/update_profile.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/search_menu.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/web/views/client/update_password.jsp</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/UpdateProfileController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/UpdatePasswordController.java</file>
+            <file>file:/D:/New%20folder%20(2)/web_ban_hang/src/java/controller/HomeController.java</file>
+>>>>>>> afba4a65b1b2fc7c969577b7bd7ecb26bad8e076
+>>>>>>> 28a0da9dee07f49a67e9abde61520c936320e33b
+        </group>
+    </open-files>
+</project-private>

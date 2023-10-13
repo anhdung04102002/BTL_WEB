@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons -->
+    <!-- Các thẻ khác -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>quản lý tài khoản</title>
+</head>
+
+<body>
+
+
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <a href="#" class="brand">
+            <i class='bx bxs-smile'></i>
+            <span class="text">AdminHub</span>
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="dashboard.html" id="thongke">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="recent.html" id="thongke">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Recent</span>
+                </a>
+            </li>
+            <li>
+                <a href="danhsachsp.html" id="mystore">
+                    <i class='bx bxs-shopping-bag-alt'></i>
+                    <span class="text">Danh sách sản phẩm</span>
+                </a>
+
+            </li>
+            <li>
+                <a href="danhmuc.html" id="addcategory">
+                    <i class='bx bxs-doughnut-chart'></i>
+                    <span class="text">danh mục sản phẩm</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-dots'></i>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="account.html" id="tk">
+                    <i class='bx bxs-group'></i>
+                    <span class="text">account</span>
+                </a>
+            </li>
+            <li>
+                <a href="phanquyen.html" id="tk">
+                    <i class='bx bxs-group'></i>
+                    <span class="text">Phân quyền</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id="mystore">
+                    <i class='bx bxs-shopping-bag-alt'></i>
+                    <span class="text">Quay lại trang Home</span>
+                </a>
+
+            </li>
+        </ul>
+
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+
+
+    <!-- CONTENT -->
+    <section id="content">
+        <!-- NAVBAR -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <a href="#" class="nav-link">Categories</a>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="switch-mode" hidden>
+            <label for="switch-mode" class="switch-mode"></label>
+            <!-- <a href="#" class="notification">
+					<i class='bx bxs-bell'></i>
+					<span class="num">8</span>
+				</a>
+				<a href="#" class="profi
+				</a> -->
+            <a href="#" class="btn-download">
+                <i class='bx bxs-cloud-download'></i>
+                <span class="text">thêm tài khoản</span>
+            </a>
+
+        </nav>
+        <main>
+            <div class="table-data">
+                <div class="order">
+                    <button class="btn-download js-them">
+                        <i class='bx bxs-cloud-download'></i>
+                        <span class="text">thêm tài khoản</span>
+                    </button>
+                    <div class="head">
+                        <h3>quản lý người dùng</h3>
+                        <i class='bx bx-search'> <input class="savesp" type="text"></i>
+                        <i class='bx bx-filter'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>permission</th>
+                                <th>email</th>
+                                <th>password</th>
+                                <th>phone</th>
+                                <th>giới tính</th>
+                                <th>ngày sinh</th>
+                                <th>địa chỉ</th>
+                                <th>sửa</th>
+                                <th>xóa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>John Doe</p>
+                                </td>
+                                <td>
+                                    <p>customer</p>
+                                </td>
+                                <td> <small>bruno@crossover.org</small></td>
+                                <td>1234567</td>
+                                <td>0987654321</td>
+                                <td>nam</td>
+                                <td>02-02-2002</td>
+                                <td>Hà Nội</td>
+                                <td><button class="update js-sua">sửa</button></td>
+                                <td><a class="delete" href="#">xóa</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>John Doe</p>
+                                </td>
+                                <td>
+                                    <p>customer</p>
+                                </td>
+                                <td> <small>bruno@crossover.org</small></td>
+                                <td>1234567</td>
+                                <td>0987654321</td>
+                                <td>nam</td>
+                                <td>02-02-2002</td>
+                                <td>Hà Nội</td>
+                                <td><button class="update js-sua">sửa</button></td>
+                                <td><a class="delete" href="#">xóa</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>John Doe</p>
+                                </td>
+                                <td>
+                                    <p>AdminHub</p>
+                                </td>
+                                <td> <small>bruno@crossover.org</small></td>
+                                <td>1234567</td>
+                                <td>0987654321</td>
+                                <td>nam</td>
+                                <td>02-02-2002</td>
+                                <td>Hà Nội</td>
+                                <td><button class="update js-sua">sửa</button></td>
+                                <td><a class="delete" href="#">xóa</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>John Doe</p>
+                                </td>
+                                <td>
+                                    <p>AdminHub</p>
+                                </td>
+                                <td> <small>bruno@crossover.org</small></td>
+                                <td>1234567</td>
+                                <td>0987654321</td>
+                                <td>nam</td>
+                                <td>02-02-2002</td>
+                                <td>Hà Nội</td>
+                                <td><button class="update js-sua">sửa</button></td>
+                                <td><a class="delete" href="#">xóa</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>John Doe</p>
+                                </td>
+                                <td>
+                                    <p>AdminHub</p>
+                                </td>
+                                <td> <small>bruno@crossover.org</small></td>
+                                <td>1234567</td>
+                                <td>0987654321</td>
+                                <td>nam</td>
+                                <td>02-02-2002</td>
+                                <td>Hà Nội</td>
+                                <td><button class="update js-sua">sửa</button></td>
+                                <td><a class="delete" href="#">xóa</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                            <!-- Thêm các nút phân trang khác vào đây -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <form action="">	<div class="modalthem js-modaluser">
+		<div class="todo change_user change">
+
+			<div class="head">
+				<h3>thêm tài khoản</h3>
+				<i class='bx bx-filter'></i>
+				<input class="savesp" type="submit" title="Lưu thông tin" value="lưu thông tin" />
+			</div>
+			<ul class="todo-list">
+				<li class="completed_list">
+					<p>tên khách hàng <input class="addsp" type="text" placeholder="tên khách hàng..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>chức vụ <input class="addsp" type="text" placeholder="chức vụ..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>email <input class="addsp" type="text" placeholder="email..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>password <input class="addsp" type="text" placeholder="password..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>phone <input class="addsp" type="text" placeholder="phone..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>địa chỉ <input class="addsp" type="text" placeholder="place..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>ngày sinh <input class="addsp" type="text" placeholder="bday..."></p>
+
+				</li>
+				<li class="completed_list">
+					<p>giới tính <input class="addsp" type="text" placeholder="giới tính..."></p>
+				</li>
+
+			</ul>
+			<div class="footer js-modalclosethem"><a class="close ">close</a></div>
+		</div>
+	</div></form>
+    <form action="">
+        <div class="modalsua js-modaluser">
+            <div class="todo change_user change">
+    
+                <div class="head">
+                    <h3>sửa thông tin tài khoản</h3>
+                    <i class='bx bx-filter'></i>
+                    <input class="savesp" type="submit" title="Lưu thông tin" value="lưu thông tin" />
+                </div>
+                <ul class="todo-list">
+                    <li class="completed_list">
+                        <p>tên khách hàng <input class="addsp" type="text" placeholder="tên khách hàng..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>chức vụ <input class="addsp" type="text" placeholder="chức vụ..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>email <input class="addsp" type="text" placeholder="email..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>password <input class="addsp" type="text" placeholder="password..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>phone <input class="addsp" type="text" placeholder="phone..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>địa chỉ <input class="addsp" type="text" placeholder="place..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>ngày sinh <input class="addsp" type="text" placeholder="bday..."></p>
+    
+                    </li>
+                    <li class="completed_list">
+                        <p>giới tính <input class="addsp" type="text" placeholder="giới tính..."></p>
+                    </li>
+    
+                </ul>
+                <div class="footer js-modalclosesua"><a class="close ">close</a></div>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

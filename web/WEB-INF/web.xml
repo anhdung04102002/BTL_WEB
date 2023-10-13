@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+    <servlet>
+        <servlet-name>CategoryApi</servlet-name>
+        <servlet-class>api.CategoryApi</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryApi</servlet-name>
+        <url-pattern>/category</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>StatisticController</servlet-name>
+        <servlet-class>controller.StatisticController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StatisticController</servlet-name>
+        <url-pattern>/statistic-ok</url-pattern>
+    </servlet-mapping>
+>>>>>>> afba4a65b1b2fc7c969577b7bd7ecb26bad8e076
+>>>>>>> 28a0da9dee07f49a67e9abde61520c936320e33b
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

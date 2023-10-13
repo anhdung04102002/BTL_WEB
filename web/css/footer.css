@@ -1,0 +1,106 @@
+
+
+/* Kiểu cho phần thông tin liên hệ */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Kiểu cho chi tiết liên hệ */
+.contact-details {
+  margin-right: 20px;
+}
+
+.contact-details h5.title {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+/* Kiểu cho menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menu-section {
+  margin-right: 20px;
+}
+
+.menu-heading h5.title {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.menu-items a {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.menu-items a:hover {
+  color: #000000;
+}
+
+/* Kiểu cho form */
+.form-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+.button-wrapper {
+  margin-left: 10px;
+}
+
+.submit-button {
+  padding: 8px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #000000;
+}
+
+/* Kiểu cho social icons */
+.social-title {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 5px;
+}
+
+/* Kiểu cho border-div */
+.border-div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+}
